@@ -39,22 +39,66 @@
 
 # print(a+"\n"+10)
 
-my_list = ["Oil","Rice","Tapal","Dal","Dal",2,"roti"]
-print(type(my_list))
-print(my_list)
-print(len(my_list))
-print(my_list[0])
-print(my_list[1])
-print(my_list[2])
-print(my_list[3])
-print(my_list[4])
-print(my_list[5])
-print(my_list[6])
-print(my_list[-2])
-print(my_list[5:6])
-if "Tapal" in my_list:
-    print("yes")
-my_list[4] = "aata"
-print(my_list)
-x =[4,5.0,"sugar"]
-print(my_list+x)
+# my_list = ["Oil","Rice","Tapal","Dal","Dal",2,"roti"]
+# print(type(my_list))
+# print(my_list)
+# print(len(my_list))
+# print(my_list[0])
+# print(my_list[1])
+# print(my_list[2])
+# print(my_list[3])
+# print(my_list[4])
+# print(my_list[5])
+# print(my_list[6])
+# print(my_list[-2])
+# print(my_list[5:6])
+# if "Tapal" in my_list:
+#     print("yes")
+# my_list[4] = "aata"
+# print(my_list)
+# x =[4,5.0,"sugar"]
+# print(my_list+x)
+
+# python class 3 16 dec 2020
+
+# a = [1,2,3,4,"apple","cherry","appricot"]
+# print(a[1:7])
+# print(a[-2:-6])
+# a[3]="mango"
+# print(a)
+# a[4:6] =["9"]
+# print(a)
+# a.insert(5,"watwermelon") #insert watermelon at index 5 and shift appricot at 6 index
+# print(a)
+
+
+# a = [1,2,3,4,"apple","cherry","appricot"]
+# app = ["mango","orange"]
+# app.append("apple") # insert apple at last in app
+# print(app)
+# app.extend(a) # extend app list and add all list of variable a
+# print(app)
+# app.remove(1) #remove 1 in list app
+# print(app)
+# app.pop(7) #remove value of index 7 in list app
+# print(app)
+# app.pop() #remove last index value
+# print(app)
+# app.remove("apple")
+# print(app)
+# # del app #delte list
+# # print(app)
+# app.clear() #clear list items
+# print(app)
+
+# antList = ["Wheat","Rice","Chicken","Biryani","Apple"]
+# antList.sort()
+# print(antList)
+
+numList = [100,500,2,0,3,65]
+numList.sort(reverse = True)
+print(numList)
+# numList.sort(reverse = False)
+# print(numList)
+numList.reverse()
+print(numList)
