@@ -22,7 +22,7 @@
 # b = "We are Studing AI \nand this is 11 Class"
 # print(b)
 
-# a = "We are studing AI for Robotics"
+# a = "We are Studing AI for Robotics"
 # b = int(input("Enter value of b 2 or any number "))
 
 # if b == 2:
@@ -59,14 +59,14 @@
 # x =[4,5.0,"sugar"]
 # print(my_list+x)
 
-# python class 3 16 dec 2020
+                                    # python class 3 16 dec 2020
 
 # a = [1,2,3,4,"apple","cherry","appricot"]
 # print(a[1:7])
 # print(a[-2:-6])
 # a[3]="mango"
 # print(a)
-# a[4:6] =["9"]
+# a[4:6] =["9","8"]
 # print(a)
 # a.insert(5,"watwermelon") #insert watermelon at index 5 and shift appricot at 6 index
 # print(a)
@@ -86,7 +86,7 @@
 # print(app)
 # app.remove("apple")
 # print(app)
-# # del app #delte list
+# # del app #delete list
 # # print(app)
 # app.clear() #clear list items
 # print(app)
@@ -95,10 +95,40 @@
 # antList.sort()
 # print(antList)
 
-numList = [100,500,2,0,3,65]
-numList.sort(reverse = True)
-print(numList)
-# numList.sort(reverse = False)
+# numList = [100,500,2,0,3,65]
+# numList.sort(reverse = True)
 # print(numList)
-numList.reverse()
-print(numList)
+# # numList.sort(reverse = False)
+# # print(numList)
+# numList.reverse()
+# print(numList)
+
+# new_list = ["Apple","Mango","Banana","Pineapple"]
+# print(new_list)
+# new_list[1] = "Cherry"
+# print(new_list)
+# new_list.sort()
+# print(new_list)
+# new_list.remove("Apple")
+# print(new_list)
+# Bill = [300,200,150,350]
+# new_list.extend(Bill)
+# print(new_list)
+# Bill.reverse()
+# print(Bill)
+
+                            # class 4 17 dec 2020
+
+fresh = ["Apple","Banana","Cherry","Mango","Appricot"]
+# if fresh[3]=="Mango" in fresh:
+#     print("available")
+
+# for i in range(len(fresh)):
+#     print(i)
+# for i in fresh:
+#     print(i)
+
+i =0
+while i<len(fresh):
+    print(fresh[i])
+    i=i+1
