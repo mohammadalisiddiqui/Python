@@ -115,11 +115,78 @@
 # max(num1,num2)
 
 
-def bas():
-    while(True):
-        ui = input("Enter fruit name \n")
-        if ui=="Cherry":
-            print(ui)
-            break
+# def bas():
+#     while(True):
+#         ui = input("Enter fruit name \n")
+#         if ui=="Cherry":
+#             print(ui)
+#             break
 
-bas()
+# bas()
+
+                                        # 22 Dec 2020
+
+
+# def max_num(*args):
+#     print("the highest num is = ",max(args)) #give back the highest number
+#     print("the minimum num is = ",min(args)) #give back the lowest number
+# num1=int(input("enter value of a"))
+# num2=int(input("enter value of b"))
+# num3=int(input("enter value of c"))
+# max_num(num1,num2,num3)
+
+
+
+
+
+# def add(*args):
+#     i=0
+#     while i<len(args):
+#         c =args[i]
+#         print(args)
+#         num = c
+#         res = 0
+#         res += num
+#         i+=1
+#         print(res)
+# add(my_list)   
+
+
+# my_list = [2,5,6,4,9,5]
+# def addition(my_list):
+#     add = sum(my_list)                  # add all list values
+#     print("the sum is =",add)
+# addition(my_list)
+
+
+
+# def ran():
+#     while(True):
+#         val = int(input("enter any number"))
+#         c = range(11)
+#         if val in c:
+#             print("yes number is available in list")     #take input from user and if it is range from0,10
+#             break                                        # show yes otherwise not
+#         else:
+#             print("number is not available")
+#             continue
+            
+# ran()
+
+# def f1(x,y):
+#     if x>y:
+#         return x
+#     return y                  # give back highest value
+# def f2(x,y,z):
+#     return f1(x,f1(y,z))
+# print(f2(3,6,11))
+
+def revst():
+    name = input("enter any string")
+    c = name
+    print(c.reverse())
+revst()
+
+
+
+
