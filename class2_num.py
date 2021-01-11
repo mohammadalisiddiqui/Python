@@ -84,7 +84,4 @@ import numpy as np
 a = np.array(range(1,101))
 b = a.reshape(5,5,4)
 print(b)
-
-for x in b:
-    if x%2 == 0:
-        print(x)
+print(b[0:, 0:,1:100:2])
